@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Biology</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/biology.css">
+  <link rel="icon" type="image/png" href="Media/AtomLogo.png">
+  <script src="https://kit.fontawesome.com/1e8d3cf9e7.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+  <script src="js/main.js"> </script>
+  <link rel="stylesheet" href="css/news.css">
+  <script src="js/search.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nameHolder">
+        <i class="fas fa-user fa-lg"></i>
+        <p id="namePage"></p>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="Home.html"><i class="fas fa-home fa-lg"></i></a>
+        <a href="Biology.html" class="active">Biology</a>
+        <a href="Tech.html">Tech</a>
+        <a href="Space.html">Space</a>
+        <a href="Physics.html">Physics</a>
+        <a href="Contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsivenav()" id="topnavBtn">
+          <i class="fas fa-caret-down fa-2x"></i>
+        </a>
+      </div>
+      <div class="searchBar" id="searchBox">
+        <input type="text" name="" value="" placeholder="Type to search" class="searchText">
+        <a class="searchBtn">
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="alert" id="noSuccess">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      Unsuccessfull search !
+    </div>
+
+    <h1>Latest news in biology</h1>
+    <div class="container">
+      <a href="Synthetic.html">
+        <img src="Media/Artificial-DNA.jpg" alt="Artificial DNA">
+      </a>
+      <div class="captionNews">
+        <div class="text">Artificial DNA</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="Designer.html">
+        <img src="Media/CRISPR.jpg" alt="Designer"> </a>
+      <div class="captionNews">
+        <div class="text">Designer babies</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="HIV.html">
+        <img src="Media/Drug.png" alt="Drug"> </a>
+      <div class="captionNews">
+        <div class="text">HIV</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="#"></a>
+      <img src="Media/Pro.jpg" alt="Proteine">
+      <div class="captionNews">
+        <div class="text">Biotechnology</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="Media/covid19.jpg" alt="COVID-19">
+      <div class="captionNews">
+        <div class="text">COVID-19</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="Media/biologyDNA1.png" alt="DNA">
+      <div class="captionNews">
+        <div class="text">Sequencing</div>
+      </div>
+    </div>
+
+    <div class="myBtn" onclick="toTopFunction()">
+      <i class="fa fa-angle-up fa-4x" id="Up" onclick="toTopFunction()"></i>
+    </div>
+
+  </main>
+  <footer>
+    <nav>
+      <div class="topnav">
+        <a href="Home.html"><i class="fas fa-home fa-lg"></i></a>
+        <a href="Biology.html" class="active">Biology</a>
+        <a href="Tech.html">Tech</a>
+        <a href="Space.html">Space</a>
+        <a href="Physics.html">Physics</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </nav>
+  </footer>
+</body>
+
+</html>

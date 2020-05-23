@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Machine Learning</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/AI.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="icon" type="image/png" href="Media/AtomLogo.png">
+  <script src="https://kit.fontawesome.com/1e8d3cf9e7.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Philosopher|Work+Sans&display=swap" rel="stylesheet">
+  <script src="js/main.js"> </script>
+  <script src="js/moreoptions.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <header>
+    <div class="sidenav" id="mySideNav">
+      <a href="javascript:void(0)" class="closebtn" id="closeSidepanel">&times;</a>
+      <a href="AI.html" class="currentPage">AI</a>
+      <a href="Designer.html">Gene Editing</a>
+      <a href="Quantum.html">Quantum computer</a>
+      <a href="Synthetic.html">Synthetic DNA</a>
+      <a href="HIV.html">HIV</a>
+    </div>
+    <button class="openbtn" id="openSidepanel"><i class="fas fa-bars fa-lg"></i> </button>
+
+    <div class="topnav" id="myTopnav">
+      <a href="Home.html"><i class="fas fa-home fa-lg"></i></a>
+      <a href="Biology.html">Biology</a>
+      <a href="Tech.html" class="active">Tech</a>
+      <a href="Space.html">Space</a>
+      <a href="Physics.html">Physics</a>
+      <a href="Contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="responsivenav()" id="topnavBtn">
+        <i class="fas fa-caret-down fa-2x"></i>
+      </a>
+    </div>
+
+    <div class="options">
+      <i class="far fa-heart fa-lg" id="heart"></i>
+      <i class="far fa-bookmark fa-lg " id="bookmark"></i>
+    </div>
+
+  </header>
+  <main>
+    <h1>Machine Learning & Cancer</h1>
+    <p>Artificial intelligence (AI), for years, has captured society’s imagination and generated enthusiasm for its potential to improve our lives. Presently, AI already plays an integral role in our daily routines and our interactions with media,
+      transportation, and communications. There is an increasing interest in the applications of AI in healthcare to improve disease diagnosis, management, and the development of effective therapies. Given the large number of patients diagnosed with
+      cancer and significant amount of data generated during cancer treatment, there is a specific interest in the application of AI to improve oncologic care.</p>
+    <img id="myImg" src="Media/tech13.png" alt="Machine Learning">
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="imgModal">
+      <div id="caption"></div>
+    </div>
+    <h2>What is AI?</h2>
+    <p>Originally formalized in the 1950s, AI refers to the ability of a machine to perform tasks commonly associated with intelligent human behavior. Including disciplines from both computer science and mathematics, AI can be considered a group of
+      iterative, "self-learning" techniques, which discover relationships within data that can evolve and often be performed faster over time.</p>
+    <img src="Media/tech14.jpg" alt="" width="50%">
+    <h2>Machine Learning (ML): The Engine That Drives AI</h2>
+    <p> majority of the AI applications within healthcare involve the utilization of ML algorithms. As ML algorithms are exposed to more training data, they are able to appreciate hidden patterns within the data which can then be used to perform a
+      task
+      without explicit programming. There are dozens of ML algorithms that have been proposed over the past several decades, and the most traditional forms of ML, such as logistic regression, have proven themselves as valuable tools for general
+      clinical oncology research.
+
+      ML tasks are often broadly dichotomized into supervised or unsupervised learning. In supervised learning, a labeled dataset of inputs and outputs is used to train the ML algorithm. The algorithm attempts to learn a general rule that maps input
+      to
+      output. Supervised ML algorithms can learn patterns in data for categorical outputs (classification) and continuous data (regression). Conversely, unsupervised ML algorithms use unlabeled data, with the goal of discovering structure in the
+      input
+      data. Unsupervised ML algorithms are often used to simplify (dimensionality reduction) or organize (clustering) data.
+
+      In traditional ML tasks, there is often some pre-engineered organization of raw input data into features that are inferred to have an impact on output.</p>
+    <img src="Media/tech15.jpg" alt="" width="50%">
+    <h2>Artificial Neural Networks and Deep Learning (DL): The Wave Comes to Healthcare</h2>
+    <p>While traditional ML algorithms used pre-engineered features to develop predictions, DL algorithms are able to learn the optimal features that best fit the data through the training process, avoiding the need to use pre-engineering,
+      unstructured
+      data. This ability has allowed DL algorithms to outperform traditional ML algorithms in many common AI problems, including image classification, natural language processing, and sequence prediction. Accordingly, the number of research
+      articles published involving deep learning in the medical field has skyrocketed over the past few years </p>
+    <img src="Media/tech12.jpg_fit=scale" alt="" width="40%"> <br>
+    <div class="myBtn" onclick="toTopFunction()">
+      <i class="fa fa-angle-up fa-4x" id="Up" onclick="toTopFunction()"></i>
+    </div>
+    <a href="HIV.html" class="previous"> <i class="fas fa-chevron-circle-left fa-2x"></i> </a>
+    <a href="Quantum.html" class="next"><i class="fas fa-chevron-circle-right fa-2x"></i></a>
+    <br>
+    <br>
+    <br>
+  </main>
+  <footer>
+    <nav>
+      <div class="topnav">
+        <a href="Home.html"><i class="fas fa-home fa-lg"></i></a>
+        <a href="Biology.html" class="active">Biology</a>
+        <a href="Tech.html">Tech</a>
+        <a href="Space.html">Space</a>
+        <a href="Physics.html">Physics</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </nav>
+
+  </footer>
+</body>
+
+</html>

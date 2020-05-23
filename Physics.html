@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Physics</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/physics.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link rel="icon" type="image/png" href="Media/AtomLogo.png">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1e8d3cf9e7.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"> </script>
+  <script src="js/search.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nameHolder">
+        <i class="fas fa-user fa-lg"></i>
+        <p id="namePage"></p>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="Home.html"><i class="fas fa-home fa-lg"></i></a>
+        <a href="Biology.html">Biology</a>
+        <a href="Tech.html">Tech</a>
+        <a href="Space.html">Space</a>
+        <a href="Physics.html" class="active">Physics</a>
+        <a href="Contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsivenav()" id="topnavBtn">
+          <i class="fas fa-caret-down fa-2x"></i>
+        </a>
+      </div>
+      <div class="searchBar" id="searchBox">
+        <input type="text" name="" value="" placeholder="Type to search" class="searchText">
+        <a class="searchBtn">
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="alert" id="noSuccess">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      Unsuccessfull search !
+    </div>
+
+    <h1>Latest news in physics</h1>
+
+    <div class="container">
+      <a href="Quantum.html">
+        <img src="Media/Data.jpg" alt="Quantum">
+      </a>
+      <div class="captionNews">
+        <div class="text">Quantum </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="Physics.html">
+        <img src="Media/entanglement.jpg" alt="Quantum">
+      </a>
+      <div class="captionNews">
+        <div class="text">Entanglement</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="Physics.html">
+        <img src="Media/physics1.jpg" alt="Artificial DNA">
+      </a>
+      <div class="captionNews">
+        <div class="text"> Heisenberg </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="Physics.html">
+        <img src="Media/physics2.jpg" alt="Artificial DNA">
+      </a>
+      <div class="captionNews">
+        <div class="text"> New state </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="Physics.html">
+        <img src="Media/quantum_computing.jpg" alt="Artificial DNA">
+      </a>
+      <div class="captionNews">
+        <div class="text"> Computer </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="Physics.html">
+        <img src="Media/physics6.jpg" alt="Artificial DNA">
+      </a>
+      <div class="captionNews">
+        <div class="text"> Atom </div>
+      </div>
+    </div>
+
+    <div class="myBtn" onclick="toTopFunction()">
+      <i class="fa fa-angle-up fa-4x" id="Up" onclick="toTopFunction()"></i>
+    </div>
+
+  </main>
+
+  <footer>
+    <nav>
+      <div class="topnav">
+        <a href="Home.html"><i class="fas fa-home fa-lg"></i></a>
+        <a href="Biology.html">Biology</a>
+        <a href="Tech.html">Tech</a>
+        <a href="Space.html">Space</a>
+        <a href="Physics.html" class="active">Physics</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </nav>
+  </footer>
+</body>
+
+</html>
