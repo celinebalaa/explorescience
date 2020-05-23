@@ -1,0 +1,77 @@
+main {
+  padding-left: 3.5% !important;
+  padding-right: 3.5% !important;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: var(--h1color);
+  padding-top: 1%;
+}
+
+main p {
+  text-align: justify;
+  word-spacing: 0.5px;
+  letter-spacing: 0.4px;
+  font-size: 105%;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+main p::first-letter {
+  font-size: 200%;
+  color: var(--maincolor);
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+}
+
+figure {
+  display: block;
+  object-position: center;
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: rgba(180, 50, 180, 1);
+  font-style: italic;
+  font-weight: bold;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  width: 60%;
+}
+
+img {
+  height: 50%;
+  width: 38%;
+  margin: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+.hide {
+  display: none;
+}
+
+.moreArticles:hover .hide {
+  display: inline-block;
+  height: 50%;
+  width: 50%;
+  float: left;
+  position: relative;
+  top: -20px;
+}
