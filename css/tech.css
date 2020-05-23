@@ -1,0 +1,20 @@
+main {
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+}
+
+figure a {
+  text-decoration: none;
+  transition: transform 4s ease-in-out;
+}
+
+figure a:hover {
+  transform: scale(2, 3);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: var(--h1color);
+  padding-top: 1%;
+}

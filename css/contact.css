@@ -1,0 +1,261 @@
+main {
+  text-align: center !important;
+  border-radius: 2px solid #f9f9f9 !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  background-color: lavender;
+}
+
+body {
+  background-color: lavender;
+}
+
+a {
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: var(--h1color);
+  padding-top: 1%;
+}
+
+input:hover {
+  border: 1px solid var(--maincolor);
+  padding: 2px;
+}
+
+#comment {
+  display: inline-block;
+  width: 30%;
+  height: 100px;
+}
+
+.Btn {
+  width: 10vw;
+  height: 5vh;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+.Btn:hover, .Btn:focus {
+  background: linear-gradient(90deg, #775bea, #ff72c0);
+  font-weight: bold;
+}
+
+.Btn:active {
+  background: linear-gradient(90deg, #0162c8, #55e7fc);
+  opacity: 0.8;
+}
+
+footer {
+  object-position: bottom;
+  position: relative;
+  top: 4vh;
+}
+
+#btnSignUp:hover, #btnSignUp:focus, #btnLogIn:hover, #btnLogIn:focus {
+  font-weight: bold;
+  background-color: rgb(50, 55, 56);
+  color: #fff;
+}
+
+#btnSignUp:active, #btnLogIn:active {
+  font-weight: bold;
+  border: 2px solid #555;
+}
+
+#oldUser {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  word-spacing: 0.5px;
+  letter-spacing: 0.5px;
+}
+
+#newUser a, #oldUser a {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#newUser a:hover, #newUser a:focus, #oldUser a:hover, #oldUser a:focus {
+  color: rgba(31, 85, 135, 0.8);
+}
+
+#nameLogIn {
+  text-transform: capitalize;
+}
+
+#wantNews {
+  display: none;
+}
+
+#password1, #password2 {
+  position: relative;
+}
+
+#showPass {
+  position: absolute;
+  left: 60%;
+}
+
+#pass2, #pass1 {
+  position: absolute;
+  left: 58%;
+  cursor: pointer;
+}
+
+.fab {
+  padding: 1%;
+  font-size: 200%;
+  width: 2.5vw;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 1% 0.5%;
+  margin-top: 3%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: white;
+}
+
+.wavy {
+  position: relative;
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  margin: 2%;
+  letter-spacing: 2px;
+}
+
+.wavy span {
+  color: var(--maincolor);
+  display: inline-block;
+  font-size: 2em;
+  text-transform: uppercase;
+  word-spacing: 0.8px;
+  animation: animate 2s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+  font-family: 'Work Sans', sans-serif;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
+  }
+
+  20% {
+    transform: translateY(-20px);
+  }
+
+  40%, 100% {
+    transform: translateY(0px);
+  }
+}
+
+.alert {
+  padding: 1%;
+  color: #fff;
+  font-size: 110%;
+  font-family: sans-serif;
+  margin-bottom: 3%;
+  transition: opacity 0.6s;
+  word-spacing: 0.6px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+#userdiff {
+  display: none;
+  background-color: #f44336;
+}
+
+#passdiff {
+  display: none;
+  background-color: #f44336;
+}
+
+#match {
+  display: none;
+  background-color: #4CAF50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#nonotify {
+  display: none;
+  background-color: #2196F3;
+}
+
+.closebtnalert {
+  margin-left: 4%;
+  font-weight: bold;
+  color: #fff;
+  float: right;
+  font-size: 150%;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtnalert:hover {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+input {
+  margin-left: 0.5%;
+}
+
+@media only screnn and (max-width:600px) {
+  .fab {
+    font-size: 80%;
+    width: 100%;
+    padding: 2%;
+    margin: 4%;
+    border-radius: 2%;
+  }
+}

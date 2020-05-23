@@ -1,0 +1,65 @@
+main {
+  padding-left: 3.5% !important;
+  padding-right: 3.5% !important;
+}
+
+main p {
+  text-align: justify;
+  word-spacing: 0.5px;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+  font-size: 105%;
+  font-family: sans-serif;
+}
+
+main p::first-letter {
+  font-size: 200%;
+  color: var(--maincolor);
+  text-transform: uppercase;
+  font-family: 'Philosopher', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: var(--h1color);
+  padding-top: 1%;
+}
+
+h2 {
+  color: rgba(180, 50, 180, 1);
+  font-style: italic;
+  font-weight: bold;
+}
+
+img {
+  height: 50%;
+  width: 38%;
+  margin: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+ol {
+  word-spacing: 0.5px;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+  font-style: italic;
+  font-weight: bold;
+  color: rgba(41, 154, 179, 1);
+  font-size: 120%;
+}
+
+ul {
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+}
